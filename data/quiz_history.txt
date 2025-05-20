@@ -1,0 +1,114 @@
+--- Quiz on Python Basics generated at 2025-05-20 15:30:45 ---
+
+### Question 1: Which of the following is NOT a Python data type?
+A. Integer
+B. Float
+C. Character
+D. Boolean
+
+Correct answer: C
+
+Explanation: Python doesn't have a dedicated character data type. Characters are represented as strings of length 1.
+
+### Question 2: What will be the output of the following code: print(10 // 3)?
+A. 3.33
+B. 3
+C. 3.0
+D. 4
+
+Correct answer: B
+
+Explanation: The // operator performs integer (floor) division, which returns the quotient without the remainder, so 10 // 3 equals 3.
+
+### Question 3: Which of the following is a mutable data structure in Python?
+A. Tuple
+B. String
+C. List
+D. Frozen Set
+
+Correct answer: C
+
+Explanation: Lists are mutable, meaning they can be changed after creation. Tuples, strings, and frozen sets are immutable.
+
+--- Quiz on Data Structures generated at 2025-05-21 09:15:22 ---
+
+### Question 1: Which data structure uses the LIFO principle?
+A. Queue
+B. Stack
+C. Linked List
+D. Binary Tree
+
+Correct answer: B
+
+Explanation: Stack operates on the Last In First Out (LIFO) principle, where the last element added is the first one to be removed.
+
+### Question 2: What is the time complexity for accessing an element in an array?
+A. O(1)
+B. O(log n)
+C. O(n)
+D. O(n log n)
+
+Correct answer: A
+
+Explanation: Arrays provide constant time O(1) access to elements because array elements are stored at contiguous memory locations.
+
+### Question 3: Which of the following is NOT an advantage of a linked list over an array?
+A. Dynamic size
+B. Ease of insertion/deletion
+C. Random access
+D. No need for contiguous memory
+
+Correct answer: C
+
+Explanation: Linked lists do not provide random access to elements. To access an element, you need to traverse from the head, resulting in O(n) time complexity.
+
+--- Quiz on data structures generated at 2025-05-21 00:41:23 ---
+### Question 1: Which data structure follows the Last In First Out (LIFO) principle?
+A. Queue
+B. Linked List
+C. Stack
+D. Array
+
+Correct answer: C
+
+Explanation: A stack operates on the LIFO principle, where the last element added is the first one removed.
+
+### Question 2: What is the average case time complexity for searching an element in a hash table?
+A. O(n)
+B. O(log n)
+C. O(1)
+D. O(n^2)
+
+Correct answer: C
+
+Explanation: Hash tables provide O(1) average case time complexity for search, insert, and delete operations due to the use of a hash function to directly access the element's location.
+
+### Question 3: Which type of linked list has each node pointing to both the next and previous nodes?
+A. Singly Linked List
+B. Circular Linked List
+C. Doubly Linked List
+D. Array List
+
+Correct answer: C
+
+Explanation: A doubly linked list has nodes that contain pointers to both the next and previous nodes in the sequence.
+
+### Question 4: Which data structure is characterized by having a fixed size in many languages and O(1) access time?
+A. Linked List
+B. Stack
+C. Queue
+D. Array
+
+Correct answer: D
+
+Explanation: Arrays typically have a fixed size and allow for O(1) access time because elements are stored in contiguous memory locations and can be accessed directly using their index.
+
+### Question 5: Which of the following is NOT a type of tree mentioned in the study material?
+A. Binary Tree
+B. AVL Tree
+C. Red-Black Tree
+D. Graph Tree
+
+Correct answer: D
+
+Explanation: While graphs are data structures, "Graph Tree" is not a standard or recognized type of tree. The study material mentions Binary Tree, AVL Tree, Red-Black Tree, and B-Tree as types of trees.

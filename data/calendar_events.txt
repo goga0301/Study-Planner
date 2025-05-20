@@ -1,0 +1,8 @@
+Topic: Python Basics - Date: 2025-05-22 - Time: 10:00 - Duration: 2 hours
+Topic: Machine Learning Introduction - Date: 2025-05-23 - Time: 14:00 - Duration: 1 hour
+Topic: Data Structures Review - Date: 2025-05-24 - Time: 09:00 - Duration: 90 minutes
+Topic: Python Practice - Date: 2025-05-25 - Time: 16:00 - Duration: 1 hour
+Topic: Machine Learning Algorithms - Date: 2025-05-26 - Time: 11:00 - Duration: 2 hours
+Topic: Advanced Data Structures - Date: 2025-05-27 - Time: 19:00 - Duration: 1 hourTopic: machine learning - Date: 2025-05-22 - Time: 14:00 - Duration: 2 hours
+Topic: Data Structures - Date: 2025-05-24 - Time: 10:00 - Duration: 90 minutes
+Topic: Python basics - Date: 2025-05-21 - Time: 19:00 - Duration: 1 hour

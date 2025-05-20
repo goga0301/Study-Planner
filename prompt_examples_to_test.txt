@@ -1,0 +1,229 @@
+# Example Prompts for Testing the Study Planner Assistant
+
+Below are various prompts you can use to test each functionality of your Study Planner Assistant. These are organized by feature to help you thoroughly test the system.
+
+## 1. Checking Available Topics
+
+```
+What topics do I have in my study materials?
+```
+
+```
+Show me all the topics I can study
+```
+
+```
+What subjects are available in my system?
+```
+
+## 2. Schedule Management
+
+### Checking Schedule
+```
+What am I studying tomorrow?
+```
+
+```
+Show me my study plan for next week
+```
+
+```
+Do I have any Python sessions scheduled?
+```
+
+```
+When is my next data structures study session?
+```
+
+```
+What's on my schedule for Friday?
+```
+
+### Creating Study Sessions
+```
+Schedule a Python study session tomorrow at 3pm
+```
+
+```
+I need to study machine learning on Thursday from 2pm to 4pm
+```
+
+```
+Add data structures to my schedule for Saturday morning at 10am for 90 minutes
+```
+
+```
+Create a study slot for Python basics this evening at 7pm
+```
+
+```
+Schedule daily Python practice sessions at 9am for the next 5 days
+```
+
+## 3. Study Material Queries
+
+```
+Find information about loops in Python
+```
+
+```
+Search my materials for stack data structure
+```
+
+```
+I need to understand dictionaries in Python
+```
+
+```
+Find content about machine learning algorithms
+```
+
+```
+What do my notes say about LIFO principle?
+```
+
+## 4. Quiz Generation
+
+```
+Generate a quiz on Python basics
+```
+
+```
+Create a 5-question quiz about data structures
+```
+
+```
+I need a quiz on machine learning concepts
+```
+
+```
+Make a challenging quiz about Python functions
+```
+
+```
+Quiz me on data structures with 3 questions
+```
+
+## 5. Quiz Evaluation
+
+```
+Which data structure uses the LIFO principle? | B
+```
+
+```
+What will be the output of print(10 // 3)? | B
+```
+
+```
+Which of the following is a mutable data structure in Python? | C
+```
+
+## 6. Content Summarization
+
+```
+Summarize what I've learned about Python
+```
+
+```
+Give me a summary of machine learning concepts
+```
+
+```
+Create a concise overview of data structures
+```
+
+```
+Summarize the key points about Python functions
+```
+
+```
+What are the main concepts in machine learning?
+```
+
+## 7. Study Plan Creation
+
+```
+Create a study plan for Python
+```
+
+```
+I need a 3-day study plan for data structures
+```
+
+```
+Develop a week-long plan to learn machine learning
+```
+
+```
+Make a comprehensive study plan for Python focused on functions and OOP
+```
+
+```
+Create a weekend study plan for data structures
+```
+
+## 8. Study Time Suggestions
+
+```
+When should I study Python this week?
+```
+
+```
+Suggest some times for me to study data structures
+```
+
+```
+I have 2 hours free tomorrow, when should I study machine learning?
+```
+
+```
+What's the best time to fit in Python practice sessions?
+```
+
+```
+Recommend study slots for reviewing data structures
+```
+
+## 9. Combined/Complex Queries
+
+```
+I have an exam on Python next Friday. Create a study plan, schedule daily sessions, and generate a quiz.
+```
+
+```
+I'm struggling with data structures. Find relevant content, summarize it, and create a quiz to test my understanding.
+```
+
+```
+I need to learn machine learning in two weeks. Create a study plan with scheduled sessions and suggest what to focus on first.
+```
+
+```
+Compare my notes on Python and data structures and tell me what topics overlap.
+```
+
+```
+I missed my scheduled Python session yesterday. When can I reschedule it and what topics should I focus on?
+```
+
+## 10. Practical Scenarios
+
+```
+I have 3 hours available today. What should I study and how should I break down my time?
+```
+
+```
+I need to prepare for a coding interview next week focused on data structures and algorithms. Help me plan my study schedule.
+```
+
+```
+I'm feeling overwhelmed with the Python content. Can you create a simplified study plan that focuses on just the essentials?
+```
+
+```
+I understand the basics of machine learning but struggle with algorithms. What specific content should I review and when?
+```
+
+```
+I learn best in the mornings. Schedule my most challenging topics during morning slots and create a balanced weekly plan.
+```

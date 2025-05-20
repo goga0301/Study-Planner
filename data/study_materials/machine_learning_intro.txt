@@ -1,0 +1,72 @@
+# Introduction to Machine Learning
+
+Machine learning is a subset of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.
+
+## Types of Machine Learning
+
+### Supervised Learning
+
+Supervised learning algorithms build a mathematical model of a set of data that contains both the inputs and the desired outputs. Examples include:
+
+- Classification: Predicting a categorical label (e.g., spam detection)
+- Regression: Predicting a continuous value (e.g., house prices)
+
+Common algorithms:
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- Random Forests
+- Support Vector Machines
+- Neural Networks
+
+### Unsupervised Learning
+
+Unsupervised learning algorithms take a set of data that contains only inputs, and find structure in the data, like grouping or clustering. Examples include:
+
+- Clustering: Grouping similar instances (e.g., customer segmentation)
+- Dimensionality Reduction: Reducing the number of variables (e.g., PCA)
+
+Common algorithms:
+- K-means clustering
+- Hierarchical clustering
+- Principal Component Analysis (PCA)
+- t-SNE
+
+### Reinforcement Learning
+
+Reinforcement learning is about taking actions in an environment to maximize some notion of cumulative reward. Examples include:
+
+- Game AI
+- Robot navigation
+- Resource management
+
+Common algorithms:
+- Q-Learning
+- Deep Q Networks (DQN)
+- Policy Gradients
+
+## The Machine Learning Process
+
+1. Data Collection
+2. Data Preprocessing
+3. Feature Engineering
+4. Model Selection
+5. Model Training
+6. Model Evaluation
+7. Model Deployment
+8. Monitoring and Maintenance
+
+## Evaluation Metrics
+
+For classification:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC Curve and AUC
+
+For regression:
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R-squared

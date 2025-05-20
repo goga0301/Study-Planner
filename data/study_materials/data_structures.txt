@@ -1,0 +1,99 @@
+# Data Structures
+
+Data structures are specific ways of organizing and storing data so that it can be accessed and modified efficiently.
+
+## Arrays
+
+An array is a collection of items stored at contiguous memory locations. It's the simplest data structure where each item can be accessed using its index.
+
+Characteristics:
+- Fixed size (in many languages)
+- O(1) access time
+- O(n) insertion/deletion time (except at the end)
+
+## Linked Lists
+
+A linked list is a linear data structure where each element points to the next one. It consists of nodes, each containing data and a reference to the next node.
+
+Types:
+- Singly Linked List: Each node points to the next node
+- Doubly Linked List: Each node points to both next and previous nodes
+- Circular Linked List: Last node points back to the first node
+
+Characteristics:
+- Dynamic size
+- O(1) insertion/deletion time (with reference to the position)
+- O(n) access time
+
+## Stacks
+
+A stack is a linear data structure that follows the Last In First Out (LIFO) principle.
+
+Operations:
+- Push: Add an element to the top
+- Pop: Remove the top element
+- Peek: View the top element without removing it
+
+Applications:
+- Function call management
+- Expression evaluation
+- Undo mechanisms
+
+## Queues
+
+A queue is a linear data structure that follows the First In First Out (FIFO) principle.
+
+Operations:
+- Enqueue: Add an element to the rear
+- Dequeue: Remove the front element
+- Front: View the front element without removing it
+
+Applications:
+- CPU scheduling
+- Disk scheduling
+- Network request handling
+
+## Trees
+
+A tree is a hierarchical data structure consisting of nodes, with a root node and subtrees of children.
+
+Types:
+- Binary Tree: Each node has at most two children
+- Binary Search Tree: Left child < Parent < Right child
+- AVL Tree: Self-balancing binary search tree
+- Red-Black Tree: Self-balancing binary search tree
+- B-Tree: Self-balancing search tree with more than two children
+
+Applications:
+- Database indexing
+- File system organization
+- Decision making
+
+## Hash Tables
+
+A hash table is a data structure that maps keys to values using a hash function.
+
+Characteristics:
+- O(1) average case for search, insert, delete
+- O(n) worst case if many collisions
+- Space inefficient for small datasets
+
+Applications:
+- Database indexing
+- Caching
+- Symbol tables in compilers
+
+## Graphs
+
+A graph is a non-linear data structure consisting of nodes (vertices) and edges connecting them.
+
+Types:
+- Directed Graph: Edges have direction
+- Undirected Graph: Edges have no direction
+- Weighted Graph: Edges have weights/costs
+- Unweighted Graph: Edges have no weights
+
+Applications:
+- Social networks
+- Web page linking
+- Network routing

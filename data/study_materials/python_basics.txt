@@ -1,0 +1,540 @@
+# Complete File for python_basics.txt
+
+Here's the complete content for `python_basics.txt`. Copy this entire text and save it to `data/study_materials/python_basics.txt`:
+
+```
+# Python Basics: A Comprehensive Guide
+
+Python is a high-level, interpreted programming language known for its readability and simplicity. Created by Guido van Rossum and first released in 1991, Python has become one of the most popular programming languages worldwide.
+
+## Core Philosophy
+
+Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+
+Python follows these principles:
+- Beautiful is better than ugly
+- Explicit is better than implicit
+- Simple is better than complex
+- Readability counts
+
+## Installation and Setup
+
+Python can be downloaded from python.org. Most Linux distributions and macOS come with Python pre-installed. After installation, you can run the Python interpreter by typing `python` or `python3` in your terminal.
+
+## Variables and Data Types
+
+Variables in Python are created when you assign a value:
+```python
+x = 10
+name = "Python"
+is_awesome = True
+```
+
+Python has several built-in data types:
+
+### Numeric Types
+- Integers: Whole numbers like 1, 100, -10
+- Floats: Decimal numbers like 3.14, 2.5, -0.7
+- Complex numbers: Numbers with real and imaginary parts like 1+2j
+
+### Sequence Types
+- Strings: Text enclosed in quotes like "Hello" or 'World'
+- Lists: Ordered, mutable collections like [1, 2, 3]
+- Tuples: Ordered, immutable collections like (1, 2, 3)
+
+### Mapping Type
+- Dictionaries: Key-value pairs like {"name": "Python", "year": 1991}
+
+### Set Types
+- Sets: Unordered collections of unique elements like {1, 2, 3}
+- Frozen sets: Immutable version of sets
+
+### Boolean Type
+- Boolean: True or False values
+
+### None Type
+- None: Represents the absence of a value
+
+## Operators
+
+Python supports various operators:
+
+### Arithmetic Operators
+- Addition: `+`
+- Subtraction: `-`
+- Multiplication: `*`
+- Division: `/`
+- Floor Division: `//`
+- Modulus: `%`
+- Exponentiation: `**`
+
+### Comparison Operators
+- Equal to: `==`
+- Not equal to: `!=`
+- Greater than: `>`
+- Less than: `<`
+- Greater than or equal to: `>=`
+- Less than or equal to: `<=`
+
+### Logical Operators
+- and: Returns True if both statements are true
+- or: Returns True if one of the statements is true
+- not: Reverse the result, returns False if the result is true
+
+### Assignment Operators
+- `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `//=`, `**=`
+
+## String Operations
+
+Strings in Python are versatile:
+
+```python
+# String concatenation
+first_name = "John"
+last_name = "Doe"
+full_name = first_name + " " + last_name  # "John Doe"
+
+# String repetition
+repeat = "Ha" * 3  # "HaHaHa"
+
+# String indexing and slicing
+text = "Python"
+first_char = text[0]  # "P"
+substring = text[1:4]  # "yth"
+
+# String methods
+upper_text = text.upper()  # "PYTHON"
+lower_text = text.lower()  # "python"
+replaced_text = text.replace("P", "J")  # "Jython"
+```
+
+## Control Flow
+
+### Conditional Statements
+```python
+age = 18
+
+if age < 13:
+    print("Child")
+elif age < 18:
+    print("Teenager")
+elif age < 65:
+    print("Adult")
+else:
+    print("Senior")
+```
+
+### Loops
+
+#### For Loop
+```python
+# Iterating through a list
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+# Using range
+for i in range(5):  # 0, 1, 2, 3, 4
+    print(i)
+```
+
+#### While Loop
+```python
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+```
+
+#### Loop Control
+```python
+for i in range(10):
+    if i == 3:
+        continue  # Skip the rest of the code in this iteration
+    if i == 8:
+        break  # Exit the loop
+    print(i)
+```
+
+## Functions
+
+Functions are defined using the `def` keyword:
+
+```python
+def greet(name):
+    """This function greets the person passed in as a parameter"""
+    return f"Hello, {name}!"
+
+# Calling the function
+message = greet("Alice")  # "Hello, Alice!"
+
+# Default parameters
+def greet_with_time(name, time_of_day="morning"):
+    return f"Good {time_of_day}, {name}!"
+
+# Multiple return values
+def get_name_parts(full_name):
+    parts = full_name.split()
+    return parts[0], parts[-1]  # Returns first and last name
+
+# Lambda functions (anonymous functions)
+double = lambda x: x * 2
+print(double(5))  # 10
+```
+
+## Data Structures
+
+### Lists
+```python
+# Creating a list
+fruits = ["apple", "banana", "cherry"]
+
+# Accessing elements
+first_fruit = fruits[0]  # "apple"
+
+# Modifying elements
+fruits[1] = "orange"  # ["apple", "orange", "cherry"]
+
+# List methods
+fruits.append("mango")  # Add at the end
+fruits.insert(1, "grape")  # Insert at position
+fruits.remove("cherry")  # Remove by value
+popped_fruit = fruits.pop()  # Remove and return the last item
+fruits.sort()  # Sort in place
+sorted_fruits = sorted(fruits)  # Return a new sorted list
+```
+
+### Dictionaries
+```python
+# Creating a dictionary
+person = {
+    "name": "John",
+    "age": 30,
+    "city": "New York"
+}
+
+# Accessing values
+name = person["name"]  # "John"
+age = person.get("age")  # 30
+
+# Modifying values
+person["age"] = 31
+
+# Dictionary methods
+keys = person.keys()  # dict_keys(['name', 'age', 'city'])
+values = person.values()  # dict_values(['John', 31, 'New York'])
+items = person.items()  # dict_items([('name', 'John'), ('age', 31), ('city', 'New York')])
+```
+
+### Tuples
+```python
+# Creating a tuple
+coordinates = (10, 20)
+
+# Accessing elements
+x = coordinates[0]  # 10
+
+# Tuples are immutable
+# coordinates[0] = 15  # This will raise an error
+```
+
+### Sets
+```python
+# Creating a set
+unique_numbers = {1, 2, 3, 3, 4}  # {1, 2, 3, 4}
+
+# Set operations
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union = set1 | set2  # {1, 2, 3, 4, 5}
+intersection = set1 & set2  # {3}
+difference = set1 - set2  # {1, 2}
+```
+
+## Object-Oriented Programming
+
+Python supports object-oriented programming with classes:
+
+```python
+class Dog:
+    # Class attribute
+    species = "Canis familiaris"
+    
+    # Initializer / Instance attributes
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    # Instance method
+    def description(self):
+        return f"{self.name} is {self.age} years old"
+    
+    # Another instance method
+    def speak(self, sound):
+        return f"{self.name} says {sound}"
+
+# Creating an instance of the class
+my_dog = Dog("Rex", 3)
+
+# Accessing attributes
+print(my_dog.name)  # "Rex"
+print(my_dog.species)  # "Canis familiaris"
+
+# Calling methods
+print(my_dog.description())  # "Rex is 3 years old"
+print(my_dog.speak("woof"))  # "Rex says woof"
+
+# Inheritance
+class Bulldog(Dog):
+    def speak(self, sound="arf"):
+        return super().speak(sound)
+```
+
+## File Handling
+
+Python can work with files:
+
+```python
+# Writing to a file
+with open("example.txt", "w") as file:
+    file.write("Hello, World!")
+
+# Reading from a file
+with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)  # "Hello, World!"
+
+# Appending to a file
+with open("example.txt", "a") as file:
+    file.write("\nAppended text")
+```
+
+## Exception Handling
+
+Python uses try/except blocks for exception handling:
+
+```python
+try:
+    x = 10 / 0  # This will raise a ZeroDivisionError
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except Exception as e:
+    print(f"An error occurred: {e}")
+else:
+    print("No exceptions were raised")
+finally:
+    print("This will always execute")
+```
+
+## Modules and Packages
+
+Python code can be organized into modules and packages:
+
+```python
+# Importing a module
+import math
+print(math.pi)  # 3.141592653589793
+
+# Importing specific items
+from math import sqrt, pow
+print(sqrt(16))  # 4.0
+
+# Importing with an alias
+import math as m
+print(m.pi)  # 3.141592653589793
+
+# Importing everything (not recommended)
+from math import *
+print(pi)  # 3.141592653589793
+```
+
+## List Comprehensions
+
+List comprehensions provide a concise way to create lists:
+
+```python
+# Without list comprehension
+squares = []
+for i in range(10):
+    squares.append(i ** 2)
+
+# With list comprehension
+squares = [i ** 2 for i in range(10)]
+
+# With conditional logic
+even_squares = [i ** 2 for i in range(10) if i % 2 == 0]
+```
+
+## Lambda Functions
+
+Lambda functions are small anonymous functions:
+
+```python
+# Basic lambda function
+add = lambda x, y: x + y
+print(add(5, 3))  # 8
+
+# Using lambda with map
+numbers = [1, 2, 3, 4]
+doubled = list(map(lambda x: x * 2, numbers))  # [2, 4, 6, 8]
+
+# Using lambda with filter
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))  # [2, 4]
+```
+
+## Advanced Python Features
+
+### Generators
+
+Generators are iterators created using functions and the yield statement:
+
+```python
+def count_up_to(max):
+    count = 1
+    while count <= max:
+        yield count
+        count += 1
+
+counter = count_up_to(5)
+for number in counter:
+    print(number)  # 1, 2, 3, 4, 5
+```
+
+### Decorators
+
+Decorators modify the behavior of functions:
+
+```python
+def log_function_call(func):
+    def wrapper(*args, **kwargs):
+        print(f"Calling {func.__name__} with args: {args}, kwargs: {kwargs}")
+        result = func(*args, **kwargs)
+        print(f"{func.__name__} returned: {result}")
+        return result
+    return wrapper
+
+@log_function_call
+def add(a, b):
+    return a + b
+
+add(3, 5)  # This call will be logged
+```
+
+### Context Managers
+
+Context managers allow for proper resource management:
+
+```python
+# Using with statement for file handling
+with open("example.txt", "r") as file:
+    content = file.read()
+
+# Creating a custom context manager
+from contextlib import contextmanager
+
+@contextmanager
+def temporary_change(obj, attr, value):
+    original = getattr(obj, attr)
+    setattr(obj, attr, value)
+    try:
+        yield
+    finally:
+        setattr(obj, attr, original)
+```
+
+## Python Standard Library
+
+Python comes with a vast standard library:
+
+### Math and Numbers
+```python
+import math
+import random
+import statistics
+
+print(math.sqrt(16))  # 4.0
+print(random.randint(1, 10))  # Random integer between 1 and 10
+print(statistics.mean([1, 2, 3, 4, 5]))  # 3.0
+```
+
+### Date and Time
+```python
+import datetime
+import time
+
+now = datetime.datetime.now()
+print(now)  # Current date and time
+print(time.time())  # Current time in seconds since the epoch
+```
+
+### File and Directory Access
+```python
+import os
+import shutil
+
+print(os.getcwd())  # Current working directory
+files = os.listdir(".")  # List files in the current directory
+shutil.copy("source.txt", "destination.txt")  # Copy a file
+```
+
+### Data Compression
+```python
+import gzip
+import zipfile
+
+with gzip.open("file.txt.gz", "wb") as f:
+    f.write(b"Compressed data")
+
+with zipfile.ZipFile("archive.zip", "w") as zf:
+    zf.write("file.txt")
+```
+
+## Python Package Management
+
+Python uses pip for package management:
+
+```bash
+# Installing a package
+pip install package_name
+
+# Installing a specific version
+pip install package_name==1.0.0
+
+# Upgrading a package
+pip install --upgrade package_name
+
+# Listing installed packages
+pip list
+```
+
+## Virtual Environments
+
+Virtual environments allow you to have separate package installations for different projects:
+
+```bash
+# Creating a virtual environment
+python -m venv myenv
+
+# Activating a virtual environment
+# On Windows
+myenv\Scripts\activate
+# On Unix or MacOS
+source myenv/bin/activate
+
+# Deactivating a virtual environment
+deactivate
+```
+
+## Python Best Practices
+
+1. Follow PEP 8 style guide
+2. Write docstrings for functions and classes
+3. Use virtual environments for projects
+4. Write tests for your code
+5. Handle exceptions properly
+6. Use meaningful variable and function names
+7. Keep functions small and focused
+8. Use comments when necessary, but prefer readable code
+9. Use list comprehensions when appropriate
+10. Use context managers for resource management
+```
